@@ -10,6 +10,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "outDir": "./built",
+    "skipLibCheck": true,
     "strict": true,
     "target": "ES2018"
   },
@@ -18,6 +19,7 @@
     "test/"
   ],
   "exclude": [
-    "cdk.out"
+    "cdk.out",
+    "node_modules"
   ]
 }
