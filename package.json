@@ -83,6 +83,7 @@
   "scripts": {
     "build": "tsc -p .",
     "test": "jest",
+    "test:ci": "jest --collectCoverage --coverageDirectory ./coverage/",
     "docs:generate": "rm -rf docs/ && typedoc ./src"
   },
   "peerDependencies": {
