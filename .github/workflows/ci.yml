@@ -22,6 +22,9 @@ jobs:
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-
+      - name: install deps
+        run: |
+          sudo apt-get update -yq && sudo apt-get install -y --no-install-recommends libsodium-dev libsodium23
       - name: build
         run: make build
       - name: lint
