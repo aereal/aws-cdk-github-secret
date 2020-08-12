@@ -82,7 +82,8 @@
   },
   "scripts": {
     "build": "tsc -p .",
-    "test": "jest"
+    "test": "jest",
+    "docs:generate": "rm -rf docs/ && typedoc ./src"
   },
   "peerDependencies": {
     "@aws-cdk/aws-iam": "^1.57.0",
