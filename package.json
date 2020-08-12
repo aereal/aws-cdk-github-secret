@@ -22,7 +22,8 @@
     ],
     "plugins": [
       "@typescript-eslint",
-      "import"
+      "import",
+      "jsdoc"
     ],
     "parser": "@typescript-eslint/parser",
     "env": {
@@ -45,7 +46,21 @@
         }
       ],
       "import/first": "error",
-      "import/order": "error"
+      "import/order": "error",
+      "jsdoc/require-jsdoc": [
+        "error",
+        {
+          "publicOnly": true,
+          "require": {
+            "ArrowFunctionExpression": true,
+            "ClassDeclaration": true,
+            "MethodDefinition": true
+          },
+          "checkConstructors": false
+        }
+      ],
+      "jsdoc/require-param-type": 0,
+      "jsdoc/require-returns": 0
     }
   },
   "jest": {
