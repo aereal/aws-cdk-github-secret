@@ -4,5 +4,6 @@
   "excludeNotExported": true,
   "excludeExternals": true,
   "ignoreCompilerErrors": true,
+  "stripInternal": true,
   "out": "./docs"
 }
