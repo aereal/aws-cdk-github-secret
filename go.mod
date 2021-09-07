@@ -9,5 +9,5 @@ require (
 	github.com/google/go-github/v32 v32.1.0
 	github.com/jamesruan/sodium v0.0.0-20181216154042-9620b83ffeae
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sync v0.0.0-20200625203802-6e8e738ad208
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 )
