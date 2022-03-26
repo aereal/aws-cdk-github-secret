@@ -8,6 +8,6 @@ require (
 	github.com/aws/aws-xray-sdk-go v1.1.0
 	github.com/google/go-github/v32 v32.1.0
 	github.com/jamesruan/sodium v0.0.0-20181216154042-9620b83ffeae
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
+	golang.org/x/oauth2 v0.0.0-20220309155454-6242fa91716a
 	golang.org/x/sync v0.0.0-20200625203802-6e8e738ad208
 )
